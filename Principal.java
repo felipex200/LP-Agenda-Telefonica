@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Orlando Nascimento
  * @author Felipe Viana
  */
-public class AgendaTelefonica {
+public class Principal {
 
     
     public static void main(String[] args) {
