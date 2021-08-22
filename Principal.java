@@ -16,7 +16,7 @@ public class Principal {
     Lista.inserir(ct1);
     Contato ct2 = new Contato ("Ciclano",88888888,"Rua B", "Cederj");
     Lista.inserir(ct2);
-    Contato ct3 = new Contato ("Beltrano",77777777,"Rua C", "Infância");
+    Contato ct3 = new Contato ("Beltrano",88889999,"Rua C", "Infância");
     Lista.inserir(ct3);
     Lista.imprimirAgenda();
         System.out.println(" ");
