@@ -87,7 +87,7 @@ public class Principal {
             String ajuda = Palavras.nextLine();
             Contato ct_aux3 = Lista.buscar(ajuda);
             if(ct_aux3 != null)
-                System.out.format("Nome:%s  Numero: %d Endereço: %s Relação: %s \n", ct_aux3.getNome(), ct_aux3.getTelefone(),ct_aux3.getEnd(),ct_aux3.getRelation());
+              System.out.println(ct_aux3);
             else
                   System.out.println("Contato não existe!");
             break;
