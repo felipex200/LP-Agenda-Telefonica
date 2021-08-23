@@ -47,4 +47,11 @@ public class Contato
     this.relation = relation;
   }
   
+  public String toString()
+    {
+        return "Nome: "+this.nome+
+               ", Telefone: "+this.telefone+
+               ", Endereco: "+this.end+
+               ", Relacao: "+this.relation+"\n";
+    }
 }
