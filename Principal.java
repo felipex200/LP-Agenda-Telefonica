@@ -18,14 +18,14 @@ public class Principal {
     Lista.inserir(ct2);
     Contato ct3 = new Contato ("Beltrano",88889999,"Rua C", "Infância");
     Lista.inserir(ct3);
-    Lista.imprimirAgenda();
+   System.out.println(Lista);
         System.out.println(" ");
     Contato alt = new Contato ("Fulano",77777777,"Rua D","n");
     Lista.alterar(alt);
-    Lista.imprimirAgenda();
+    System.out.println(Lista);
         System.out.println(" ");
     Lista.remover("Ciclano");
-    Lista.imprimirAgenda();
+    System.out.println(Lista);
     //*Métodos para Salvar/Recuperar agenda
     
     
@@ -92,7 +92,7 @@ public class Principal {
                   System.out.println("Contato não existe!");
             break;
           case 5:
-            Lista.imprimirAgenda();
+            System.out.println(Lista);
           break;
           case 6:
             System.out.print("Nome do .txt a ser criado: ");
