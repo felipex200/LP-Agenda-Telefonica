@@ -127,10 +127,14 @@ public boolean salvar(String nomeArquivo){
     }
 
 
-  public void imprimirAgenda(){
-    for (int i =0; i < contatos.size(); i++){
-        System.out.format("\nNome:%s  Telefone: %d Endereço: %s Relação: %s", contatos.get(i).getNome(), contatos.get(i).getTelefone(),contatos.get(i).getEnd(),contatos.get(i).getRelation());
+    public String toString()
+    {
+        if(this.contatos.isEmpty()) 
+            return "Agenda vazia";
+        String retorno = "\n";
+        for(Contato contato : this.contatos)
+            retorno += contato;
+        return retorno;
     }
-  } 
 
 }
