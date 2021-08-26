@@ -21,7 +21,7 @@ public class Principal {
    System.out.println(Lista);
         System.out.println(" ");
     Contato alt = new Contato ("Fulano",77777777,"Rua D","n");
-    Lista.alterar(alt);
+    Lista.inserir(alt);
     System.out.println(Lista);
         System.out.println(" ");
     Lista.remover("Ciclano");
